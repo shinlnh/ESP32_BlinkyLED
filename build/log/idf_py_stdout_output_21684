@@ -1,0 +1,5 @@
+[1/4] cmd.exe /C "cd /D D:\ESP32IDE\PJT\Blinky_LED\build\esp-idf\esptool_py && D:\ESP32IDE\Espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe D:/ESP32IDE/Espressif/frameworks/esp-idf-v5.3.1/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/ESP32IDE/PJT/Blinky_LED/build/partition_table/partition-table.bin D:/ESP32IDE/PJT/Blinky_LED/build/app-template.bin"
+app-template.bin binary size 0x2d050 bytes. Smallest app partition is 0x100000 bytes. 0xd2fb0 bytes (82%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D D:\ESP32IDE\PJT\Blinky_LED\build\bootloader\esp-idf\esptool_py && D:\ESP32IDE\Espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe D:/ESP32IDE/Espressif/frameworks/esp-idf-v5.3.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/ESP32IDE/PJT/Blinky_LED/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6880 bytes. 0x780 bytes (7%) free.

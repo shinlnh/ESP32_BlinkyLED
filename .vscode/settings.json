@@ -1,0 +1,7 @@
+{
+    "idf.adapterTargetName": "esp32",
+    "files.associations": {
+        "gpio.h": "c",
+        "freertos.h": "c"
+    }
+}
